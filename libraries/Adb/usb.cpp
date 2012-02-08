@@ -14,7 +14,14 @@
 	limitations under the License.#include <string.h>
 */
 
-#include "wiring.h"
+//Kenichi Yoshida
+//2012/02/08
+//ArduinoIDEのバージョンアップ時の注意
+//https://sites.google.com/site/mathrax2010/version_up_attention
+//「wiring.h」を、「wiring_private.h」に書き換え
+//#include "wiring.h"
+#include "wiring_private.h"
+
 #include "usb.h"
 #include "ch9.h"
 #include "max3421e.h"
